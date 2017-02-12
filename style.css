@@ -1,0 +1,100 @@
+/* ---------- GLOBAL STYLES ---------- */
+
+.parallax-cosplay { 
+    /* The image used */
+    background-image: url(images/blackbutler.jpg);
+
+    /* Set a specific height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-sewing { 
+    /* The image used */
+    background-image: url(images/sewing.jpg);
+
+    /* Set a specific height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+</style>
+body {
+    background-color: #2E4AFF;
+}
+.navbar {
+    border-radius: 0px;
+    background-color: #000;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.text {
+    padding-top: -400px;
+}
+.img-responsive {
+    
+    max-width: 26%;
+    height: auto;
+}
+/* ---------- NAVIGATION ---------- */
+
+.text {
+    margin-top: 0px;
+}
+.video {
+    background-color: #654321;
+}
+.video-wind {
+    background-color: #88FFFE;
+}
+.video-electric {
+    background-color: #808080;
+}
+.coal-text {
+    color: #FF3E41;
+}
+.background {
+    background-color: #654321;
+}
+a:link {
+    color: black;
+}
+.background-wind {
+    background-color: #88FFFE;
+}
+.pic-image {
+    min-height: 250px;
+    min-width: 500px;
+}
+.parallax-credits { 
+    /* The image used */
+    background-image: url(images/power-button-1568392.jpg);
+
+    /* Set a specific height */
+    height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*---------- MEDIA QUERIES ----------*/
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+    .img-responsive {
+        max-width: 130px;
+        padding-top: -100px;
+    }
